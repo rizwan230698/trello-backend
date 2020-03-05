@@ -1,0 +1,19 @@
+POST http://localhost:8080/
+content-type: application/json
+
+{
+    "title": "Doing"
+}
+
+###
+
+PATCH  http://localhost:8080/5e5240a6a0813223e41c7c93/addItem
+content-type: application/json
+
+{
+    "title":"Fix error"
+}
+
+###
+
+GET http://localhost:8080/
